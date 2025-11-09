@@ -1,0 +1,74 @@
+/* font import */
+@import url('URLHere');
+
+body {
+background: url('https://iili.io/Kb7yAAv.jpg') no-repeat center center fixed;
+color: #FFFFFF !important;
+background-size: cover;
+font-family: 'FontNameHere';
+}
+
+.col-md-9.col-xs-12 {
+background: !important;
+border: 4px double #2B2014 !important;
+border-top: none !important;
+border-right: none !important;
+border-bottom: none !important;
+}
+
+div.container.main {
+background: rgba(15, 8, 6, 0.5) !important;
+border: 4px double #2B2014 !important;
+border-radius: 15px !important;
+}
+
+.navbar {
+background: #0F0806 !important;
+border: 1px solid #2B2014 !important;
+border-radius: 15px 50px !important;
+border-bottom: none !important;
+border-top: none !important;
+border-right: none !important;
+box-shadow: none !important;
+font-family: 'FontNameHere';
+}
+
+.navbar li a {
+color: #86604D !important;
+}
+
+.navbar li a:hover {
+background: none !important;
+color: #e1d5bc !important;
+border: 0 0 10px #e1d5bc, 0 0 20px #e1d5bc, 0 0 40px #e1d5bc; !important;
+text-shadow: 0 0 5px #e1d5bc, 0 0 10px #e1d5bc, 0 0 20px #e1d5bc; !important;
+transition: 0.8s !important;
+}
+
+/* Lioden logo replacement */
+.navbar-header > a > img {
+content: url('ImageURLHere'); !important;
+width: 150-200px;
+}
+
+.breadcrumb {
+background: #2B2014 !important;
+color: #86604D !important;
+border- 1px solid #2B2014 !important;
+border-radius: 15px !important;
+}
+
+.breadcrumb::after {
+content: "CSS by Blub-Blub (#519615)";
+position: absolute;
+right: 20%;
+z-index: 100;
+color: #86604D;
+}
+
+.feature {
+background: #2B2014 !important;
+color: #86604D !important;
+border: 1px solid #2B2014 !important;
+border-radius: 15px !important;
+}
