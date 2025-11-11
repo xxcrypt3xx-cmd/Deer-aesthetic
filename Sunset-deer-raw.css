@@ -47,7 +47,7 @@ transition: 0.8s !important;
 
 /* Lioden logo replacement */
 .navbar-header > a > img {
-content: url('ImageURLHere'); !important;
+content: url('https://iili.io/KmrtEil.png'); !important;
 width: 150-200px;
 }
 
