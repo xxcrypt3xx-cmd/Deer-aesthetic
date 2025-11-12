@@ -94,6 +94,8 @@ transition: 0.8s !important;
 
 div.mound-grid>img {
 content: url('https://iili.io/KpazYqN.jpg') !important;
+width: 181.875px;
+height: 120px;
 }
 
 .col-xs-10 {
