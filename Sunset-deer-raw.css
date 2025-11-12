@@ -401,3 +401,16 @@ color: #C7A99A !important;
 border: 1px solid #2B2014 !important;
 border-radius: 15px !important;
 }
+
+#commentBox::before {
+content: "Please be respectful, don't leave anything that doesn't need to be said.";
+background: #0F0806 !important;
+color: #C7A99A !important;
+display: block;
+width: 100%;
+height: 40px;
+position: absolute;
+margin-top: -42px;
+padding-top: 6px;
+}
+
