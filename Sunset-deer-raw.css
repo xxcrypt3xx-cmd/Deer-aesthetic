@@ -218,7 +218,7 @@ font-family: 'Playfair Display';
 }
 
 td {
-background: #0F0806 !important;
+background: none !important;
 color: #86604D !important;
 border: 1px solid #2B2014 !important;
 border-radius: 15px !important;
@@ -371,29 +371,29 @@ box-shadow: none !important;
 }
 
 .progress {
-background: #2B2014 !important;
-border: 1px solid #2B2014 !important;
+background: #040302 !important;
+border: 1px solid #040302 !important;
 border-radius: 15px !important;
 }
 
 .progress div {
-color: #C7A99A !important;
+color: #c7a99a !important;
 }
 
 .progress-bar {
-background: #86604D !important;
+background: #86604d !important;
 }
 
 .progress-bar-warning {
-background: #86604D !important;
+background: #86604d !important;
 }
 
 .progress-bar-danger {
-background: #86604D !important;
+background: #86604d !important;
 }
 
 .progress-bar-success {
-background: #86604D !important;
+background: #86604d !important;
 }
 
 #commentBox {
