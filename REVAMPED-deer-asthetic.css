@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Bitcount+Grid+Single:wght@100..900&family=Mystery+Quest&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+background: url('https://iili.io/Kb7yAAv.jpg') no-repeat center center fixed !important;
+color: none !important;
+background-size: cover !important;
+}
+
+#commentBox {
+background: rgba(15, 8, 6, 0.5) !important;
+color: #C7A99A !important;
+border: 1px solid #2B2014 !important;
+border-radius: 15px !important;
+box-shadow: none !important;
+}
+
+.col-md-9.col-xs-12 {
+background: none !important;
+border: 4px double #2B2014 !important;
+border-top: none !important;
+border-right: none !important;
+border-bottom: none !important;
+}
+
+div.container.main {
+background: rgba(15, 8, 6, 0.5) !important;
+border: 1px solid #2B2014 !important;
+border-radius: 15px !important;
+}
+
+.navbar {
+background: #0F0806 !important;
+border: 1px solid #2B2014 !important;
+border-bottom: none !important;
+border-top: none !important;
+border-right: none !important;
+border-radius: 15px !important;
+box-shadow: none !important;
+font-family: 'Playfair Display';
+}
+
+navbar li a {
+color: #86604D !important;
+}
+
+.navbar li a:hover {
+background: none !important;
+color: #e1d5bc !important;
+border: 0 0 10px #e1d5bc, 0 0 20px #e1d5bc, 0 0 40px #e1d5bc;
+text-shadow: 0 0 5px #e1d5bc, 0 0 10px #e1d5bc, 0 0 20px #e1d5bc;
+transition: 0.8s !important;
+}
+
+.navbar-header > a > img {
+content: url('https://iili.io/KmrtEil.png') !important;
+width: 100px;
+}
+
+.breadcrumb {
+background: #2B2014 !important;
+color: #86604D !important;
+border: 1px solid #2B2014 !important;
+border-radius: 15px !important;
+}
+
+
+.breadcrumb::after {
+content: "CSS by Blub-Blub (#519615)";
+position: absolute;
+right: 20%;
+z-index: 100;
+color: #86604D;
+}
+
+.feature {
+background: #2B2014 !important;
+color: #86604D !important;
+border: 1px solid #2B2014 !important;
+border-radius: 15px !important;
+}
+
+.topbar {
+background: #2B2014 !important;
+color: #86604D !important;
+border: none !important;
+border-top: none !important;
+border-bottom: 4px solid #2B2014 !important;
+}
+
+.sidebar, .table {
+background: none !important;
+color: #86604D !important;
+border: none !important;
+}
+
+.panel {
+background: #2B2014 !important;
+border: 1px solid #86604D !important;
+border-radius: 15px !important;
+box-shadow: none !important;
+}
+
+
+.progress {
+background: #040302 !important;
+border: 1px solid #040302 !important;
+border-radius: 15px !important;
+}
+
+.progress div {
+color: #86604d !important;
+}
+
+.progress-bar-warning {
+background: #86604d !important;
+}
+
+.progress-bar-danger {
+background: #86604d !important;
+}
+
+.progress-bar-success {
+background: #86604d !important;
+}
+
+.progress-bar {
+background: #86604d !important;
+}
+
+.s-chat-message:nth-child(even) {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px dashed #0F0806 !important;
+}
+
+.s-chat-message:nth-child(odd) {
+background: #040302 !important;
+color: #86604D !important;
+border: 1px dashed #040302 !important;
+}
+
+.s-chat-message_timestamp {
+color: #86604D !important;
+}
+
+#chatMessageContainer {
+background: #0F0806 !important;
+color: #86604D !important;
+border: none !important;
+}
+
+button#label_currentChannel {
+background: #0F0806 !important;
+color: #86604D !important;
+border: none !important;
+}
+
+.s-chat-message_content {
+background: none !important;
+color: #86604D !important;
+border: none !important;
+}
+
+div#chatMessagePinned {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+}
+
+h1 {
+text-align: left !important;
+color: #86604D !important;
+font-family: 'Playfair Display';
+}
+
+h3 {
+text-align: center !important;
+color: #86604D !important;
+font-family: 'Playfair Display';
+}
+
+.top, th, .bottom, .left, .right_cub {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+font-family: 'Playfair Display';
+}
+
+td.right {
+background: rgba(15, 8, 6, 0.5) !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+font-family: 'Playfair Display';
+}
+
+td.right_odd {
+background: rgba(15, 8, 6, 0.5) !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+font-family: 'Playfair Display';
+}
+
+.cave-grid, .mound-grid {
+background: rgba(15, 8, 6, 0.5) !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+border-radius: 15px !important;
+}
+
+.cave-grid:hover, .mound-grid:hover {
+text-shadow: 0 0 5px #e1d5bc, 0 0 10px #e1d5bc, 0 0 20px #e1d5bc !important;
+transition: 0.8s !important;
+}
+
+div.cave-grid>img {
+content: url('https://iili.io/Kp1Ng24.jpg') !important;
+width: 100% !important;
+height: 100% !important;
+}
+
+div.mound-grid>img {
+content: url('https://iili.io/KpazYqN.jpg') !important;
+width: 100% !important;
+height: 100% !important;
+}
+
+a:link, a:visited {
+color: #e1d5bc !important;
+}
+
+a:hover {
+color: #e1d5bc !important;
+text-shadow: 0 0 5px #e1d5bc, 0 0 10px #e1d5bc, 0 0 20px #e1d5bc !important;
+transition: 0.8s !important;
+}
+
+topbar a:link {
+color: #e1d5bc !important;
+transition: 0.8s !important;
+}
+
+.topbar a:visited {
+color: #e1d5bc !important;
+}
+
+.topbar a:hover {
+color: #e1d5bc !important;
+}
+
+.alert-danger, .alert-success, .attack-won, .attack-lost {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+border-radius: 15px !important;
+text-align: center !important;
+}
+
+input[type="button"] {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+input[type="submit"] {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+input[type="text"] {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+input[type="password"] {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+textarea {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+select {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+input[type="button"]:hover {
+background: #0F0806 !important;
+color: #e1d5bc !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+text-shadow: 0 0 5px #e1d5bc, 0 0 10px #e1d5bc, 0 0 20px #e1d5bc !important;
+transition: 0.8s !important;
+box-shadow: none !important;
+}
+
+input[type="text]:focus {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+input[type="password"]:focus {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+textarea:focus {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
+
+select:focus {
+background: #0F0806 !important;
+color: #86604D !important;
+border: 1px solid #0F0806 !important;
+text-align: center !important;
+text-shadow: none !important;
+box-shadow: none !important;
+}
